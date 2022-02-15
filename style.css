@@ -326,3 +326,16 @@ a {
     transition: 1.5s;
 }
 /* END CONTACT */
+
+/* FOOTER */
+footer {
+    padding: 2rem 3.5rem;
+}
+
+footer h5 {
+    display: inline;
+    font-size: .75rem;
+    color: #aaaaaa;
+    font-weight: lighter;
+}
+/* END FOOTER */
