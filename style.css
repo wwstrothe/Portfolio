@@ -231,3 +231,73 @@ a {
     background-position: center;
 }
 /* END PORTFOLIO */
+
+/* RESUME */
+.button {
+    color: #aaaaaa;
+    text-shadow: none;
+    border: 1px solid #aaaaaa;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 12px;
+    padding: 0.5rem 2rem;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px rgba(0,0,0, 0.75);
+}
+
+.resume {
+    text-align: left;
+    padding: 25px;
+    width: 100%;
+    margin: auto;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.column {
+    flex: 1 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.75);
+}
+
+.column h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.column h5 {
+    margin: .25rem 1rem;
+    line-height: 1.25rem;
+    font-size: 1.125rem;
+    text-transform: none;
+}
+
+.column h6 {
+    margin: 0 3rem;
+    font-size: .75rem;
+}
+
+.column p {
+    margin: 10px 20px;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    text-transform: none;
+}
+
+.column li {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: none;
+    margin-left: 1.5rem;
+}
+/* END RESUME */
