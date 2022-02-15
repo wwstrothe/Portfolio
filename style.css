@@ -46,3 +46,63 @@ body {
     text-shadow: none;
 }
 /* NAV BAR END */
+
+/* ABOUT ME */
+.card {
+    width: 90%;
+    min-height: auto;
+    background-color: white;
+    margin: 1rem auto 2rem;
+    box-shadow: 0 0 5rem rgba(0,0,0, 0.75);
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 1000px;
+}
+
+.title {
+    font-size: 1.75rem;
+    padding-bottom: .5rem;
+    width:95%;
+    border-bottom: 1px solid #aaaaaa;
+    margin: 1rem;
+    text-align: left;;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    width: 29%;
+    min-width: 290px;
+    height: 100%;
+}
+
+.selfie {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.75);
+}
+
+.side {
+    width: 60%;
+    height: 100%;
+    float: right;
+    text-align: left;
+}
+
+.side h5 {
+    margin: .25rem 1rem;
+    line-height: 1.25rem;
+    font-size: 1.125rem;
+    text-transform: none;
+}
+
+.side p {
+    margin: 10px 20px;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    text-transform: none;
+}
