@@ -301,3 +301,28 @@ a {
     margin-left: 1.5rem;
 }
 /* END RESUME */
+
+/* CONTACT */
+.address {
+    display: flex;
+    justify-content: center;
+}
+
+.address a {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    padding: 1vw;
+    text-shadow: none;
+    margin: 0 10px;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.address a:hover {
+    box-shadow: 0 0 7px rgba(0,0,0, 0.75);
+    background: rgba(121,150,108, .75);
+    transition: 1.5s;
+}
+/* END CONTACT */
