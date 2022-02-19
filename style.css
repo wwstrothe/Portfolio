@@ -417,20 +417,70 @@ footer h5 {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+    a {
+        padding: 1px 2px ;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+    
     .navBar {
         flex-direction: column;
     }
 
     .navButton {
         margin: 0;
-        padding: .5rem;
+        padding: 0;
     }
 
     .navButton a {
-        font-size: 1rem;
+        font-size: .75rem;
+    }
+
+    .card {
+        padding: 1px;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .main {
+        min-width: 130px
     }
 
     .resume {
         padding: 5px;
+    }
+
+    .project {
+        margin: 1px;
+        max-width: 240px;
+    }
+
+    .project-bio p {
+        font-size: .8rem;
+    }
+
+    .column {
+        max-width: 200px;
+    }
+
+    .columns {
+        align-items: center;
     }
 }
