@@ -29,7 +29,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Deployed website: 
 
-https://wwstrothe.github.io/portfolio2/
+![deployed website layout](/Assets/Images/portfolio-website.png)
 
 GitHub repo: https://github.com/wwstrothe/portfolio2
 
