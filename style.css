@@ -231,6 +231,20 @@ a {
     background-position: center;
 }
 
+.project5 {
+    background: url(Assets/Images/dashboard-loggedout297x396.png);
+    background-size: auto;
+    background-position: center;
+}
+
+.project5:hover {
+    background: linear-gradient(0deg, lightblue 35%, rgba(255, 255, 255, 0) 75%), url(Assets/Images/dashboard-loggedout297x396.png);
+    color: #000;
+    transition: 1s;
+    background-size: auto;
+    background-position: center;
+}
+
 .workinprogress {
     background: url(Assets/Images/workinprogress297x396.jpg);
     background-size: auto;
